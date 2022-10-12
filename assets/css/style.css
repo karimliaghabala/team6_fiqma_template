@@ -151,18 +151,34 @@
 /* ********************second section end****************** */
 
 /* ********************third section start****************** */
-        .header-s3{
+        .section-3{
+            margin: 100gitpx 0px;
+        }
+        .main-s3>div{
+            display: inline-block;
+            margin-right: 115px;
+        }
+        .main-s3>div>:first-child{
+            color: #1E4681;
+            font-size: 25px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+/* ********************third section end****************** */
+
+/* ********************fourth section start****************** */
+        .header-s4{
             font-size: 55px;
             font-weight: 700px;
             font-family: 'Roboto Slab';
             margin-bottom: 40px;
         }
-        .main-s3>ul{
+        .main-s4>ul{
             list-style-type: disc;
         }
-        .main-s3{
+        .main-s4{
             margin-right: 800px;
             margin-left: 40px;
             font-size: 24px;
         }
-/* ********************third section end****************** */
+/* ********************fourth section end****************** */
