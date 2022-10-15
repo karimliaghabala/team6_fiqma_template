@@ -31,7 +31,7 @@
         .text :first-child{
             font-family: 'Roboto Slab';
             font-size: 80px;
-            font-weight: 400;
+            font-weight: 700;
             margin-bottom: 10px;
         }
     /* ********************main left end****************** */
@@ -91,11 +91,11 @@
         .left-s2 :first-child{
             font-family: 'Roboto Slab';
             font-size: 55px;
+            font-weight: 700;
             margin-bottom: 18px;
         }
         .left-s2 .p1{
             font-size: 24px;
-            padding-right: 150px;
         } 
 
     /* ********************main left end****************** */
@@ -161,7 +161,6 @@
         }
         .main-s3>div{
             display: inline-block;
-            margin-right: 115px;
         }
         .main-s3>div>:first-child{
             color: #1E4681;
@@ -182,44 +181,297 @@
             list-style-type: disc;
         }
         .main-s4{
-            margin-right: 800px;
             margin-left: 40px;
             font-size: 24px;
         }
 /* ********************fourth section end****************** */
 
-/* ********************RESPONSIVE TABLET (992PX-1279PX) start****************** */
-@media (max-width:992px) and (max-width:1279px) {
-    .container{
-        width: 100%;
-        margin: auto;
-    }
-    
-}
-/* ********************RESPONSIVE TABLET (992PX-1279PX) end****************** */
 
-/* ********************RESPONSIVE mobile (320PX-991PX) start****************** */
-@media (max-width:320px) and (max-width:991px) {
-    .container{
-        width: 100%;
-        margin: auto;
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* ********************** Responsiv TABLET  (960px)******************** */
+@media screen and (max-width:960px){
+/* ********************first section start****************** */
+/* ********************main left start****************** */
+    .header>img{
+        width: 64px;
+        height: 38px;
     }
-    
-    .main, .main-s2, .main-s3{
-        display: block;
+    .online-kurs, .clock, .date{
+        margin-right: 30px;
     }
-    .photo{
-        display: none;
+    .online-kurs> img, .clock> img, .date > img{
+        margin: 8px;
     }
-    .s2-text{
-        margin-top: 100px;
-        display: inline-block;
+    .head{
+        margin: 80px 0px 20px 0px;
+    }
+    .text :first-child{
+        font-size: 46px;
+        font-weight: 700;
+        margin-bottom: 8px;
+    }
+/* ********************main left end****************** */
+/* ********************main right start****************** */
+    .right{
+        margin: 20px;
+        left: 150px;
+    }
+    .right :last-child{
+        width:176px ;
+        height: 206px;
+    }
+    .right :first-child{
+        right: 200px;
+        top: 195px;
+        width: 158px;
+        height: 23px;
+        left: 30px;
+    }
+/* ********************main right end****************** */
+/* ********************comment start****************** */
+    .text2{
+        width: 280px;
+        height: 115px;
+        padding: 10px;
+    }
+    .text2 :first-child{
+        font-size: 14px;
+    }
+
+    .text2 :last-child{
+        padding-top: 20px;
+    }
+/* ********************comment end****************** */
+/* ********************first section end****************** */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* ********************second section start****************** */
+/* ********************main left start****************** */
+    .left-s2 :first-child{
+        font-size: 32px;
+        font-weight: 700;
     }
     .left-s2 .p1{
-        padding-right: 0;
+        font-size: 14px;
     } 
-    .p1{
-        font-size: 12px;
+
+/* ********************main left end****************** */
+/* ********************main right start****************** */
+    .right-s2{
+        position: relative;
+
     }
+    .right-s2 .svg1 img{
+        width: 181px;
+        height: 182px;
+        
+    }
+    .right-s2 .svg2 img{
+        width: 211px;
+        height: 34px;
+        top: 165px;
+    }
+/* ********************main right end****************** */
+/* ********************footer start****************** */
+.footer{
+    display: flex;
+    align-items: center;
+ }
+    .photo,.s2-text>div{
+        margin-right: 30px;
+    }
+    .s2-text>div{
+        display: inline-block;
+    }
+    .s2-text>div>:first-child{
+        font-size: 15px;
+        font-weight: 800;
+    }
+    .s2-text>div>:last-child{
+        font-size: 11px;
+        font-weight: 400;
+    }
+/* ********************footer end****************** */
+/* ********************second section end****************** */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* ********************third section start****************** */
+.section-3{
+    margin: 80px 0px;
 }
-/* ********************RESPONSIVE mobile (320PX-991PX) end****************** */
+.header-s4>p{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.main-s3>div>:first-child{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.main-s3>div>:last-child{
+    font-size: 11px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+/* ********************third section end****************** */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* ********************fourth section start****************** */
+.header-s4{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.main-s4{
+    margin-left: 40px;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* ********************fourth section end****************** */
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* ********************** Responsiv phone  (600px)******************** */
+@media screen and (max-width:600px){
+/* ********************first section start****************** */
+.main{
+    display: block;
+}
+/* ********************main left start****************** */
+
+.header>img{
+    width: 52px;
+    height: 30px;
+}
+.online-kurs, .clock, .date{
+    margin-right: 15px;
+}
+.online-kurs> img, .clock> img, .date > img{
+    margin: 6px;
+    width: 10px;
+    height: 10px;
+}
+.head{
+    margin: 40px 0px 20px 0px;
+}
+.online-kurs> p, .clock> p, .date > p{
+    font-size: 11px;
+}
+.text :first-child{
+    font-size: 37px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+/* ********************main left end****************** */
+/* ********************main right start****************** */
+
+.right :last-child{
+    width:141px ;
+    height: 171px;
+}
+.right :first-child{
+    top: 160px;
+    width: 127px;
+    height: 19px;
+}
+/* ********************main right end****************** */
+/* ********************comment start****************** */
+.text2{
+    width: 225px;
+    height: 90px;
+    padding: 10px;
+}
+.text2 :first-child{
+    font-size: 11px;
+    font-weight: 400;
+}
+.text2 :last-child{
+    font-size: 10px;
+}
+
+.text2 :last-child{
+    padding-top: 20px;
+}
+/* ********************comment end****************** */
+/* ********************first section end****************** */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* ********************second section start****************** */
+.main-s2{
+    display: block;
+}
+/* ********************main left start****************** */
+.left-s2 :first-child{
+    font-size: 26px;
+    font-weight: 700;
+}
+.left-s2 .p1{
+    font-size: 12px;
+} 
+
+/* ********************main left end****************** */
+/* ********************main right start****************** */
+
+.right-s2 .svg1 img{
+    width: 181px;
+    height: 182px;
+    
+}
+.right-s2 .svg2 img{
+    width: 211px;
+    height: 34px;
+    top: 165px;
+}
+/* ********************main right end****************** */
+/* ********************footer start****************** */
+.footer{
+display: flex;
+align-items: center;
+}
+.photo,.s2-text>div{
+    margin-right: 30px;
+}
+.s2-text>div{
+    display: inline-block;
+}
+.s2-text>div>:first-child{
+    font-size: 15px;
+    font-weight: 800;
+}
+.s2-text>div>:last-child{
+    font-size: 11px;
+    font-weight: 400;
+}
+/* ********************footer end****************** */
+/* ********************second section end****************** */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* ********************third section start****************** */
+.section-3{
+margin: 80px 0px;
+}
+.header-s4>p{
+font-size: 32px;
+font-weight: 700;
+}
+
+.main-s3>div>:first-child{
+font-size: 15px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.main-s3>div>:last-child{
+font-size: 11px;
+font-weight: 400;
+margin-bottom: 10px;
+}
+/* ********************third section end****************** */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* ********************fourth section start****************** */
+.header-s4{
+font-size: 32px;
+margin-bottom: 30px;
+}
+.main-s4{
+margin-left: 40px;
+font-size: 14px;
+font-weight: 400;
+}
+/* ********************fourth section end****************** */
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+}
