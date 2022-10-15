@@ -413,18 +413,17 @@
     
 }
 .right-s2 .svg2 img{
-    width: 211px;
-    height: 34px;
+    width: 170px;
+    height: 28px;
     top: 165px;
 }
 /* ********************main right end****************** */
 /* ********************footer start****************** */
-.footer{
-display: flex;
-align-items: center;
+.photo{
+    display: none;
 }
-.photo,.s2-text>div{
-    margin-right: 30px;
+.s2-text>div{
+    margin-right: 40px;
 }
 .s2-text>div{
     display: inline-block;
