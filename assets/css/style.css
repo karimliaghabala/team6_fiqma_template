@@ -104,13 +104,11 @@
             position: relative;
             left: 150px;
             top: 80px;
-
         }
         .right-s2 .svg1 img{
             position: relative;
             width: 314px;
             height: 315px;
-            
         }
         .right-s2 .svg2 img{
             position: absolute;
@@ -334,7 +332,6 @@
     display: block;
 }
 /* ********************main left start****************** */
-
 .header>img{
     width: 52px;
     height: 30px;
@@ -408,32 +405,32 @@
 /* ********************main right start****************** */
 
 .right-s2 .svg1 img{
-    width: 181px;
-    height: 182px;
+    width: 170px;
+    height: 160px;
     
 }
 .right-s2 .svg2 img{
     width: 170px;
     height: 28px;
-    top: 165px;
+    top:150px;
 }
 /* ********************main right end****************** */
 /* ********************footer start****************** */
 .photo{
     display: none;
 }
-.s2-text>div{
-    margin-right: 40px;
+.s2-text{
+    margin-top: 50px;
 }
 .s2-text>div{
     display: inline-block;
 }
 .s2-text>div>:first-child{
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 800;
 }
 .s2-text>div>:last-child{
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 400;
 }
 /* ********************footer end****************** */
@@ -441,10 +438,10 @@
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 /* ********************third section start****************** */
 .section-3{
-margin: 80px 0px;
+margin: 60px 0px;
 }
 .header-s4>p{
-font-size: 32px;
+font-size: 26px;
 font-weight: 700;
 }
 
@@ -473,4 +470,3 @@ font-weight: 400;
 /* ********************fourth section end****************** */
 }
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-}
